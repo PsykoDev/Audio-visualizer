@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8040BE4296A3186001B5E7E /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8040BE3296A3186001B5E7E /* SDL2_mixer.framework */; };
+		C80EC368296A461C00DAEF72 /* libfftw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C80EC367296A461C00DAEF72 /* libfftw3.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		C857538C2969F6900098FFF4 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C857538B2969F6900098FFF4 /* SDL2.framework */; };
+		C857538E2969F7510098FFF4 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C857538D2969F7510098FFF4 /* SDL2_image.framework */; };
+		C8C7B7352969E382008B7E4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C7B7342969E382008B7E4F /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8C7B72F2969E382008B7E4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8040BE3296A3186001B5E7E /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		C80EC365296A45DA00DAEF72 /* 3.3.10_1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 3.3.10_1; path = ../../../../usr/local/Cellar/fftw/3.3.10_1; sourceTree = "<group>"; };
+		C80EC367296A461C00DAEF72 /* libfftw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3.a; sourceTree = "<group>"; };
+		C80EC369296A467000DAEF72 /* libfftw3f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3f.a; sourceTree = "<group>"; };
+		C80EC36A296A467000DAEF72 /* libfftw3_threads.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3_threads.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3_threads.a; sourceTree = "<group>"; };
+		C80EC36B296A467000DAEF72 /* libfftw3f_threads.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f_threads.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3f_threads.a; sourceTree = "<group>"; };
+		C80EC36C296A467000DAEF72 /* libfftw3f_mpi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f_mpi.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3f_mpi.a; sourceTree = "<group>"; };
+		C80EC36D296A467100DAEF72 /* libfftw3f_omp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f_omp.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3f_omp.a; sourceTree = "<group>"; };
+		C80EC36E296A467100DAEF72 /* libfftw3_omp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3_omp.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3_omp.a; sourceTree = "<group>"; };
+		C80EC36F296A467100DAEF72 /* libfftw3l.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3l.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3l.a; sourceTree = "<group>"; };
+		C80EC370296A467100DAEF72 /* libfftw3l_omp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3l_omp.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3l_omp.a; sourceTree = "<group>"; };
+		C80EC371296A467100DAEF72 /* libfftw3l_mpi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3l_mpi.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3l_mpi.a; sourceTree = "<group>"; };
+		C80EC372296A467100DAEF72 /* libfftw3l_threads.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3l_threads.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3l_threads.a; sourceTree = "<group>"; };
+		C80EC373296A467100DAEF72 /* libfftw3_mpi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3_mpi.a; path = ../../../../usr/local/Cellar/fftw/3.3.10_1/lib/libfftw3_mpi.a; sourceTree = "<group>"; };
+		C857538B2969F6900098FFF4 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		C857538D2969F7510098FFF4 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		C8C7B7312969E382008B7E4F /* learnCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learnCPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C7B7342969E382008B7E4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8C7B72E2969E382008B7E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80EC368296A461C00DAEF72 /* libfftw3.a in Frameworks */,
+				C8040BE4296A3186001B5E7E /* SDL2_mixer.framework in Frameworks */,
+				C857538E2969F7510098FFF4 /* SDL2_image.framework in Frameworks */,
+				C857538C2969F6900098FFF4 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C85753882969F6550098FFF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C80EC373296A467100DAEF72 /* libfftw3_mpi.a */,
+				C80EC36E296A467100DAEF72 /* libfftw3_omp.a */,
+				C80EC36A296A467000DAEF72 /* libfftw3_threads.a */,
+				C80EC36C296A467000DAEF72 /* libfftw3f_mpi.a */,
+				C80EC36D296A467100DAEF72 /* libfftw3f_omp.a */,
+				C80EC36B296A467000DAEF72 /* libfftw3f_threads.a */,
+				C80EC369296A467000DAEF72 /* libfftw3f.a */,
+				C80EC371296A467100DAEF72 /* libfftw3l_mpi.a */,
+				C80EC370296A467100DAEF72 /* libfftw3l_omp.a */,
+				C80EC372296A467100DAEF72 /* libfftw3l_threads.a */,
+				C80EC36F296A467100DAEF72 /* libfftw3l.a */,
+				C80EC367296A461C00DAEF72 /* libfftw3.a */,
+				C80EC365296A45DA00DAEF72 /* 3.3.10_1 */,
+				C8040BE3296A3186001B5E7E /* SDL2_mixer.framework */,
+				C857538D2969F7510098FFF4 /* SDL2_image.framework */,
+				C857538B2969F6900098FFF4 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C7B7282969E382008B7E4F = {
+			isa = PBXGroup;
+			children = (
+				C8C7B7332969E382008B7E4F /* learnCPP */,
+				C8C7B7322969E382008B7E4F /* Products */,
+				C85753882969F6550098FFF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8C7B7322969E382008B7E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8C7B7312969E382008B7E4F /* learnCPP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C7B7332969E382008B7E4F /* learnCPP */ = {
+			isa = PBXGroup;
+			children = (
+				C8C7B7342969E382008B7E4F /* main.cpp */,
+			);
+			path = learnCPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8C7B7302969E382008B7E4F /* learnCPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C7B7382969E382008B7E4F /* Build configuration list for PBXNativeTarget "learnCPP" */;
+			buildPhases = (
+				C8C7B72D2969E382008B7E4F /* Sources */,
+				C8C7B72E2969E382008B7E4F /* Frameworks */,
+				C8C7B72F2969E382008B7E4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learnCPP;
+			productName = learnCPP;
+			productReference = C8C7B7312969E382008B7E4F /* learnCPP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8C7B7292969E382008B7E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C8C7B7302969E382008B7E4F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C8C7B72C2969E382008B7E4F /* Build configuration list for PBXProject "learnCPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8C7B7282969E382008B7E4F;
+			productRefGroup = C8C7B7322969E382008B7E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C7B7302969E382008B7E4F /* learnCPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8C7B72D2969E382008B7E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C7B7352969E382008B7E4F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8C7B7362969E382008B7E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C8C7B7372969E382008B7E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C8C7B7392969E382008B7E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/fftw/3.3.10_1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8C7B73A2969E382008B7E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/fftw/3.3.10_1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8C7B72C2969E382008B7E4F /* Build configuration list for PBXProject "learnCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C7B7362969E382008B7E4F /* Debug */,
+				C8C7B7372969E382008B7E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C7B7382969E382008B7E4F /* Build configuration list for PBXNativeTarget "learnCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C7B7392969E382008B7E4F /* Debug */,
+				C8C7B73A2969E382008B7E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8C7B7292969E382008B7E4F /* Project object */;
+}
